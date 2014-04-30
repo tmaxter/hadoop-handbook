@@ -1,11 +1,11 @@
 CACHE MANIFEST
-# Revision 1398852333082
+# Revision 1398858554693
 
 CACHE:
 distributions/Cloudera.html
 distributions/Hortonworks.html
-distributions/MapR.html
 distributions/README.html
+distributions/MapR.html
 index.html
 hadoop/README.html
 hadoop/Release.html
