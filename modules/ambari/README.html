@@ -16,7 +16,7 @@
         <link rel="next" href="../../modules/hive/README.html" />
         
         
-        <link rel="prev" href="../../hadoop/Release.html" />
+        <link rel="prev" href="../../hadoop/MapReduce.html" />
         
 
         <meta property="og:title" content="Ambari | Hadoop handbook">
@@ -42,7 +42,7 @@
 
 
         
-    <div class="book" data-github="GitbookIO/javascript" data-level="2" data-basepath="../.." data-revision="1398858610105">
+    <div class="book" data-github="GitbookIO/javascript" data-level="2" data-basepath="../.." data-revision="1398861303578">
     <div class="book-header">
     <!-- Actions Left -->
     
@@ -133,6 +133,22 @@
                             
                         </li>
                     
+                        <li  data-level="1.2" data-path="hadoop/HDFS.html">
+                            
+                            <a href="../../hadoop/HDFS.html">
+                                <i class="fa fa-check"></i> <b>1.2.</b> HDFS
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.3" data-path="hadoop/MapReduce.html">
+                            
+                            <a href="../../hadoop/MapReduce.html">
+                                <i class="fa fa-check"></i> <b>1.3.</b> Map Reduce
+                            </a>
+                            
+                        </li>
+                    
                 </ul>
                 
             </li>
@@ -218,29 +234,33 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 30%;min-width: 20%;"></div>
+        <div class="inner" style="width: 41.666666666666664%;min-width: 33.333333333333336%;"></div>
     </div>
     <div class="chapters">
     
         <a href="../../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
     
-        <a href="../../hadoop/README.html" title="Hadoop" class="chapter done new-chapter" data-progress="1" style="left: 10%;"></a>
+        <a href="../../hadoop/README.html" title="Hadoop" class="chapter done new-chapter" data-progress="1" style="left: 8.333333333333334%;"></a>
     
-        <a href="../../hadoop/Release.html" title="Release" class="chapter done " data-progress="1.1" style="left: 20%;"></a>
+        <a href="../../hadoop/Release.html" title="Release" class="chapter done " data-progress="1.1" style="left: 16.666666666666668%;"></a>
     
-        <a href="../../modules/ambari/README.html" title="Ambari" class="chapter done new-chapter" data-progress="2" style="left: 30%;"></a>
+        <a href="../../hadoop/HDFS.html" title="HDFS" class="chapter done " data-progress="1.2" style="left: 25%;"></a>
     
-        <a href="../../modules/hive/README.html" title="Hive" class="chapter  new-chapter" data-progress="3" style="left: 40%;"></a>
+        <a href="../../hadoop/MapReduce.html" title="Map Reduce" class="chapter done " data-progress="1.3" style="left: 33.333333333333336%;"></a>
     
-        <a href="../../modules/pig/README.html" title="Pig" class="chapter  new-chapter" data-progress="4" style="left: 50%;"></a>
+        <a href="../../modules/ambari/README.html" title="Ambari" class="chapter done new-chapter" data-progress="2" style="left: 41.666666666666664%;"></a>
     
-        <a href="../../hardware/README.html" title="Hardware" class="chapter  new-chapter" data-progress="5" style="left: 60%;"></a>
+        <a href="../../modules/hive/README.html" title="Hive" class="chapter  new-chapter" data-progress="3" style="left: 50%;"></a>
     
-        <a href="../../distributions/README.html" title="Distributions" class="chapter  new-chapter" data-progress="6" style="left: 70%;"></a>
+        <a href="../../modules/pig/README.html" title="Pig" class="chapter  new-chapter" data-progress="4" style="left: 58.333333333333336%;"></a>
     
-        <a href="../../distributions/Cloudera.html" title="Cloudera" class="chapter  " data-progress="6.1" style="left: 80%;"></a>
+        <a href="../../hardware/README.html" title="Hardware" class="chapter  new-chapter" data-progress="5" style="left: 66.66666666666667%;"></a>
     
-        <a href="../../distributions/MapR.html" title="MapR" class="chapter  " data-progress="6.2" style="left: 90%;"></a>
+        <a href="../../distributions/README.html" title="Distributions" class="chapter  new-chapter" data-progress="6" style="left: 75%;"></a>
+    
+        <a href="../../distributions/Cloudera.html" title="Cloudera" class="chapter  " data-progress="6.1" style="left: 83.33333333333333%;"></a>
+    
+        <a href="../../distributions/MapR.html" title="MapR" class="chapter  " data-progress="6.2" style="left: 91.66666666666667%;"></a>
     
         <a href="../../distributions/Hortonworks.html" title="Hortonworks" class="chapter  " data-progress="6.3" style="left: 100%;"></a>
     
@@ -249,9 +269,39 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_9">
+                    <section class="normal" id="section-gitbook_11">
                     
-                        <h1 id="ambari">Ambari</h1>
+                        <p><img src="http://ambari.apache.org/images/apache-ambari-project.jpg" alt="Ambari logo"></p>
+<h1 id="ambari">Ambari</h1>
+<blockquote>
+<p>The <a href="http://ambari.apache.org/" target="_blank">Apache Ambari project</a> is aimed at making Hadoop management simpler by developing software for provisioning, managing, and monitoring Apache Hadoop clusters. Ambari provides an intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs.</p>
+<p>Ambari enables System Administrators to:</p>
+<ul>
+<li><p>Provision a Hadoop Cluster</p>
+</li>
+<li><p>Ambari provides a step-by-step wizard for installing Hadoop services across any number of hosts.</p>
+<ul>
+<li>Ambari handles configuration of Hadoop services for the cluster.</li>
+</ul>
+</li>
+<li>Manage a Hadoop Cluster<ul>
+<li>Ambari provides central management for starting, stopping, and reconfiguring Hadoop services across the entire cluster.</li>
+</ul>
+</li>
+<li><p>Monitor a Hadoop Cluster</p>
+<ul>
+<li>Ambari provides a dashboard for monitoring health and status of the Hadoop cluster.</li>
+<li>Ambari leverages Ganglia for metrics collection.</li>
+<li>Ambari leverages Nagios for system alerting and will send emails when your attention is needed (e.g., a node goes down, remaining disk space is low, etc).</li>
+</ul>
+</li>
+<li><p>Ambari enables Application Developers and System Integrators to:</p>
+<ul>
+<li>Easily integrate Hadoop provisioning, management, and monitoring capabilities to their own applications with the Ambari REST APIs.</li>
+</ul>
+</li>
+</ul>
+</blockquote>
 
                     
                     </section>
@@ -261,7 +311,7 @@
         </div>
 
         
-        <a href="../../hadoop/Release.html" class="navigation navigation-prev"><i class="fa fa-angle-left"></i></a>
+        <a href="../../hadoop/MapReduce.html" class="navigation navigation-prev"><i class="fa fa-angle-left"></i></a>
         
         
         <a href="../../modules/hive/README.html" class="navigation navigation-next"><i class="fa fa-angle-right"></i></a>
