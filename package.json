@@ -1,0 +1,21 @@
+{
+  "name": "Hadoop-Handbook",
+  "version": "0.0.1",
+  "description": "The goal of this distributed book is to be a useful and referential source for all information about Hadoop and technologies around",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/stumpyfr/hadoop-handbook.git"
+    },
+  "keywords": [
+    "Hadoop",
+    "Handbook"
+  ],
+  "author": "Niels freier <niels.freier@outlook.com>",
+  "license": "CC0 1.0 Universal",
+  "dependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt": "~0.4.4",
+    "grunt-gh-pages": "~0.9.1",
+    "grunt-gitbook": "~0.3.2"
+  }
+}
