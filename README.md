@@ -8,7 +8,7 @@ From an engineer point of view but we are open to every stuff interesting and re
 
 Contribute with push requests on the git: https://github.com/stumpyfr/hadoop-handbook
 
-# online version
+# Online version
 
 You can find the online version in html format directly on github page: http://stumpyfr.github.io/hadoop-handbook/
 
