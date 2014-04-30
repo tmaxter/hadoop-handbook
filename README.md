@@ -6,6 +6,8 @@ The goal of this distributed book is to be a useful and referential source for a
 
 From an engineer point of view but we are open to every stuff interesting and related to hadoop (DataScience,...)
 
+Contribute with push requests on the git: https://github.com/stumpyfr/hadoop-handbook
+
 # online version
 
 You can find the online version in html format directly on github page: http://stumpyfr.github.io/hadoop-handbook/
