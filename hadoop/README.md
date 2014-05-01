@@ -15,3 +15,5 @@
 >**Hadoop YARN:** A framework for job scheduling and cluster resource management.
 
 >**Hadoop MapReduce:** A YARN-based system for parallel processing of large data sets.
+
+> -- <cite>https://hadoop.apache.org</cite>
