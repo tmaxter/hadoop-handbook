@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 	    'gitbook': {
 		development: {
 		    input: "./",
-			github: "GitbookIO/javascript"
+			github: "stumpyfr/hadoop-handbook"
 			}
 	    },
 		'gh-pages': {
