@@ -9,7 +9,13 @@ module.exports = function (grunt) {
 	    'gitbook': {
 		development: {
 		    input: "./",
-			github: "stumpyfr/hadoop-handbook"
+			github: "stumpyfr/hadoop-handbook",
+			links: {
+			"home": "http://stumpyfr.github.io/hadoop-handbook/",
+			"about": "https://github.com/stumpyfr/hadoop-handbook",
+			"issues": "https://github.com/stumpyfr/hadoop-handbook/issues",
+			"contribute": "https://github.com/stumpyfr/hadoop-handbook",
+		    }
 			}
 	    },
 		'gh-pages': {
