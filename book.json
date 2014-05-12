@@ -1,35 +1,16 @@
 {
-    // Folders to use for output (caution: it override the value from the command line)
-    //"output": null,
-
-    // Generator to use for building (caution: it override the value from the command line)
-    //"generator": "site",
-
-    // Book title and description (defaults are extracted from the README)
-    //"title": null,
-    //"description": null,
-
-    // GitHub informations (defaults are extracted using git)
-    //"github": null,
-    //"githubHost": "https://github.com/",
-
-    // Plugins list, can contain "-name" for removing default plugins
+    "generator": "site",
+    "title": null,
+    "description": null,
+    "github": null,
+    "githubHost": "https://github.com/",
     "plugins": [],
-
-    // Global configuration for plugins
     "pluginsConfig": {},
-
-    // Links in template (null: default, false: remove, string: new value)
     "links": {
-        // Link to home in the top-left corner
         "home": "http://stumpyfr.github.io/hadoop-handbook/",
-
-        // Links in top of sidebar
         "about": "https://github.com/stumpyfr/hadoop-handbook",
         "issues": "https://github.com/stumpyfr/hadoop-handbook/issues",
         "contribute": "https://github.com/stumpyfr/hadoop-handbook",
-
-        // Sharing links
         "sharing": {
             "google": null,
             "facebook": null,
